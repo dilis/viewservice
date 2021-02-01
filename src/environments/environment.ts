@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  timezonedbApiKey: 'DWELEIP00152',
+  timezonedbService: 'https://api.timezonedb.com',
+  // avaloqService: 'http://172.17.0.2:8080'
+  avaloqService: '/api'
 };
 
 /*
