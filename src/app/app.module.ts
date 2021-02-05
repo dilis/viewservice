@@ -9,13 +9,15 @@ import { MatCardModule } from '@angular/material/card';
 import { DatetimeDisplayComponent } from './components/datetime-display/datetime-display.component';
 import { TimeDisplayComponent } from './components/time-display/time-display.component';
 import { DateDisplayComponent } from './components/date-display/date-display.component';
+import { ServerDateTimeDisplayComponent } from './components/server-date-time-display/server-date-time-display.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DatetimeDisplayComponent,
     TimeDisplayComponent,
-    DateDisplayComponent
+    DateDisplayComponent,
+    ServerDateTimeDisplayComponent
   ],
   imports: [
     BrowserModule,

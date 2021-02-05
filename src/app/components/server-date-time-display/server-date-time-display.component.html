@@ -1,0 +1,11 @@
+<mat-card class="server-datetime-card">
+  <mat-card-title align="center">
+    {{ label }}
+  </mat-card-title>
+  <mat-card-content align="center">
+    <time-display [time]="date"></time-display>
+    <p>{{ tz }}</p>
+    <date-display [date]="date"></date-display>
+    <p>Received: {{ iso8601 }}</p>
+  </mat-card-content>
+</mat-card>

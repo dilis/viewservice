@@ -10,7 +10,7 @@ export class DatetimeDisplayComponent implements OnInit {
   @Input() label: String;
 
   constructor() {
-    this.date = new Date();
+    // this.date = new Date();
   }
 
   ngOnInit(): void {

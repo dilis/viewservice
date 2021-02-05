@@ -2,8 +2,10 @@
 <mat-card>
 
 <div align="center">
-  <datetime-display [date]="date" label="Server Date/Time"></datetime-display>
+  <!-- <datetime-display [date]="date" label="Server Date/Time"></datetime-display>
+  Received: {{ receivedServerDateTime }} -->
 
+  <server-datetime-display [date]="date" [iso8601]="iso8601" [tz]="serverTz" label="Server Date/Time"></server-datetime-display>
   <datetime-display [date]="mnlDate" label="Server Date/Time (Manila TZ)"></datetime-display>
   <mat-card-actions>
     <button mat-raised-button color="primary" (click)="fetchServerTime()">Get Server Time</button>
